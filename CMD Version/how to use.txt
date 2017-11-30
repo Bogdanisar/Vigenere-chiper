@@ -1,0 +1,20 @@
+Vigenere Chiper - Command line Version:
+
+How to use:
+Navigate to containing folder in CMD and run:
+g++ vigenere.cpp -o vigenere.exe
+
+Usage command:
+vigenere.exe <operation type> <if> <of> <key>
+
+- operation type = 1 if encryption is desired;
+<if> - full name of a local .txt file that is to be encrypted.
+<of> - full name of a local .txt file to store output.
+<key> - string that represents the key used for encryption.
+E.g.: vigenere.exe 1 localInput.txt localOutput.txt thisIsAKey.
+
+- operation type = 2 if decryption is desired;
+<if> - full name of a local .txt file that is to be decrypted.
+<of> - full name of a local .txt file to store output.
+<key> - string that represents the key used for decryption.
+E.g.: vigenere.exe 2 localInput.txt localOutput.txt thisIsAKey.
