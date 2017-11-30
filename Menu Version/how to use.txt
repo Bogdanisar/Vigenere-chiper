@@ -1,0 +1,7 @@
+Vigenere Chiper - Menu Version:
+
+How to use:
+Navigate to containing folder in CMD and run:
+g++ vigenere.cpp -o vigenere.exe
+
+Run vigenere.exe and follow menu intructions.
